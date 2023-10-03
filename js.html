@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-warning container">
+    <h1 class="text-center">JAVASCRIPT BASICS</h1>
+    <div id="changePara">JavaScript is a scripting language used to develop web pages. Developed in Netscape, JS allows
+        developers to create a dynamic and interactive web page to interact with visitors and execute complex actions.
+        It also enables users to load content into a document without reloading the entire page.</div>
+    <button class="btn btn-primary mt-1"
+        onclick="document.getElementById('changePara').innerHTML='Paragraph Changed'">Click to Change Paragraph</button>
+
+    <div>
+        <button class="btn btn-primary mt-1"
+            onclick="document.getElementById('changePara').style.fontSize='30px';document.getElementById('changePara').style.backgroundColor='red'">Click
+            to Change Size & BG color</button>
+        <button class="btn btn-primary mt-1" onclick="location.reload()">Reload Page</button>
+    </div>
+
+
+
+    <div class="mt-5" id="colorandfont">JavaScript is a scripting language used to develop web pages. Developed in
+        Netscape, JS allows developers to create a dynamic and interactive web page to interact with visitors and
+        execute complex actions. It also enables users to load content into a document without reloading the entire
+        page.</div>
+    <button class="btn btn-primary mt-1" onclick="test()">Click here to change color anf font size</button>
+    <button class="btn btn-primary mt-1" onclick="location.reload()">Reload Page</button>
+    <div class="mt-5 mb-3"><img src="./image/1.PNG" height="200px" id="image1"></div>
+    <button class="btn btn-primary mt-1" onclick="changepic()">Click Here To Change Image</button>
+    <div>
+        <button class="btn btn-primary mt-1" onclick="change()">Reset Image</button>
+    </div>
+
+    <div class="mt-5" id="div1">
+        div1 contents
+    </div>
+    <div id="div2">
+        DIV2 CONTENTS
+    </div>
+    <button class="btn btn-primary mt-1" onclick="swap()">Swap Contents</button>
+
+
+    <div class="mt-5 mb-5">
+        <img src="./image/1.PNG" height="200px" id="img1">
+        <img src="./image/img.PNG" height="200px" id="img2">
+        <button class="btn btn-primary mt-1" onclick="swappic()">Click Here Swap Images</button>
+
+    </div>
+
+    <div class="mt-5 mb-5">
+        <img src="./image/1.PNG" height="200px" id="img11">
+        <button class="btn btn-primary mt-1" onclick="hide()">hide</button>
+        <button class="btn btn-primary mt-1" onclick="show()">show</button>
+    </div>
+
+    <div class="mt-5 mb-5">
+        <img src="./image/img.PNG" height="200px" id="img22">
+        <button class="btn btn-primary mt-1" onclick="hideandshow()" id="btn1">hide</button>
+
+    </div>
+
+
+
+    <button class="btn btn-primary mt-1 mb-5" onclick="array()">array reverse in console</button>
+
+    <!-- JS string search -->
+    <h3 class="mt-3"> IndexOf </h3>
+    <div>The position of the first occurrence of "locate" is : <span id="demo"></span></div>
+
+    <!-- lastIndexOf -->
+    <h3 class="mt-3"> lastIndexOf </h3>
+    <div>The position of the last occurrence of "locate" is : <span id="demo1"></span></div>
+
+    <!-- JavaScript Arrays -->
+    <h3 class="mt-3"> The length Property </h3>
+    <div>The length property returns the length of an array : <span id="demo2"></span></div>
+
+    <!-- toString() -->
+    <h3 class="mt-3"> toString() </h3>
+    <div>The toString() method returns an array as a comma separated string : <span id="demo3"></span></div>
+
+    <!-- join() -->
+    <h3 class="mt-3"> join() </h3>
+    <div>The join() method joins array elements into a string (here we used * to join strings) : <span
+            id="demo4"></span></div>
+
+
+    <!-- pop() -->
+    <h3 class="mt-3"> pop() </h3>
+    <p>The pop() method removes the last element from an array : </p>
+    <p id="demo5"></p>
+    <p id="demo6"></p>
+
+
+    <!-- push() -->
+    <h3 class="mt-3"> push() </h3>
+    <p>The push() method appends a new element to an array : </p>
+    <p id="demo7"></p>
+    <p id="demo8"></p>
+
+    <!-- splice(2,0) -->
+    <h3 class="mt-3"> splice(2,0) </h3>
+    <p>The splice() method adds new elements to an array : </p>
+    <p id="demo9"></p>
+    <p id="demo10"></p>
+
+     <!-- splice(2,2) -->
+     <h3 class="mt-3"> splice(2,2) </h3>
+     <p>The splice() method adds new elements to an array, and returns an array with the deleted elements (if any) : </p>
+     <p id="demo11"></p>
+     <p id="demo12"></p>
+     <p id="demo13"></p>
+
+      <!-- slice -->
+    <h3 class="mt-3"> splice(2,0) </h3>
+    <p>Slice out a part of an array starting from array element 1 ("Orange"):</p>
+    <p id="demo14"></p>
+
+    <!-- this -->
+    <h3 class="mt-3"> This </h3>
+    <p id="demo15"></p>
+
+    
+
+
+ 
+
+
+
+
+
+
+
+
+    <script src="./js/js.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
