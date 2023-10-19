@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>JS - WIDTH AND HEIGHT</title>
+</head>
+
+
+    <body class="bg-dark">
+      
+
+        <label class="mt-3 ms-3 text-white" for="">Width in PX </label>
+        <input id="W-px" class="ms-2 w-25" type="text" onchange="widthpx()" placeholder="enter the Width of image in pixel">
+    
+    
+        <label class="mt-3 ms-3 text-white" for="">Width in % </label>
+        <input id="W-percent" class="ms-3 w-25" type="text"  onchange="widthpercent()" placeholder="enter the Width of image in percentage">
+        <br>
+        <label class="mt-3 ms-3 text-white" for="">Height in PX </label>
+        <input id="H-px" class="ms-1 w-25" type="text"  onchange="heightpx()" placeholder="enter the Height of image in pixel">
+    
+        <label class="mt-3 ms-3 text-white" for="">Height in % </label>
+        <input id="H-percent" class=" mb-3 w-25 ms-2" type="text"  onchange="heightpercent()" placeholder="enter the Height of image in percentage">
+    
+    
+        <div class="mt-4 d-flex">
+            <img id="img-1" class="ms-5" src="images/peakpx (2).jpg" alt="image size can be alterate" onclick="imageclick()" width="300px" height="300px">
+        </div>
+
+
+    
+        <label class="mt-3 ms-3 text-white" for=""> Paste the link here</label>
+        <input id="link1" class=" mb-3 w-25 ms-2" type="text" placeholder="paste the link here to change image">
+    
+        <label class="mt-3 ms-3 text-white" for="">Tick here & Click image to visit link</label>
+        <input type="checkbox" id="CKBX">
+
+
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/javascript.js"> </script>
+</body>
+</html>
